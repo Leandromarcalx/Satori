@@ -1,0 +1,5 @@
+selenium
+transformers
+torch
+pandas
+python-dotenv
