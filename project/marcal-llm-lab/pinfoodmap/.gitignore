@@ -1,0 +1,67 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project specific
+drivers/*
+!drivers/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+downloads/*
+!downloads/.gitkeep
+
+# Browser-related (Selenium/undetected_chromedriver)
+undetected_chromedriver/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS related
+Thumbs.db
+Desktop.ini
+.DS_Store
